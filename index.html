@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#1876f3" />
+  <meta name="description" content="qasim.js is a new mini JavaScript library coded by Qasim Sarwari. use it to your web projects to save your time and work esay with javascript." />
+  <meta name="keywords" content="qasim.js | Javascript | jQuery | library | Qasim.js | Afghan Coder | Qasim Sarwari | Web Development | Web Design" />
+  <link rel="stylesheet" href="dist/prism-onedark.css" type="text/css"/>
+  <link rel="stylesheet" href="dist/style.css" type="text/css" />
+  <script src="dist/prism.js" type="text/javascript"></script>
+  <title>Qasim.Js | A mini js library</title>
+</head>
+<body>
+  <nav class="navbar">
+    <h2 class="log" style="font-family:Arial">Q</h2>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="https://qa-sim.netlify.app" target="_blank">Blog</a></li>
+      <li><a href="https://github.com/Qasim345">Github</a></li>
+    </ul>
+  </nav>
+  <div class="container">
+    <div class="logo">
+      <h2>Q</h2>
+    </div>
+    <h1 style="font-family:Arial">qasim.js</h1>
+    <i>a mini <span>js</span> library by <a href="https://github.com/Qasim345">Qasim Sarwari</a></i>
+    <div class="btns">
+      <a href="#get">Get Started</a>
+      <a href="dist/qasim-v0.1.zip">Download</a>
+    </div>
+    <div class="text" id="about">
+      <p>qasim.js is a new mini JavaScript library like jQuery. coded on javascript language by Qasim Sarwari in 2021. download and get started with qasim.js it's very esay to use in your web projects.<br />if you have any question or problem to work with this, contact us.<br /> qasimsarwari2020@gmail.con</p>
+    </div>
+  <div class="box">
+    <h3 id="get">Add script file:</h3>
+      <pre class="language-javascript"><code class="language-javascript">
+&lt;script src="qasim.js" type="text/javascript"&gt;&lt;/script&gt;
+</code></pre>
+  </div>
+  <div class="box">
+    <h3>Syntext:</h3>
+<pre class="language-javascript">
+<code class="language-javascript">&lt;script type="text/javascript"&gt;
+// Syntext of this like jQuery very simple
+   $(selector).action();
+&lt;/script&gt;
+</code></pre>
+</div>
+<div class="box">
+  <h3>Select element by tag name:</h3>
+<pre class="language-javascript">
+<code class="language-javascript">//set innerHTML for h2
+$("h2").html("Qasim Sarwari");</code>
+</pre>
+</div>
+<div class="box">
+  <h3>Set innerText to an element:</h3>
+  <pre class="language-javascript">
+<code class="language-javascript">// whene click on button
+$("#myBtn").on("click",()=>{
+  $("h3").text("Clicked");
+});</code></pre>
+</div>
+<div class="box">
+  <h3>Select element by id and hide it:</h3>
+<pre class="language-javascript">
+<code class="language-javascript">// hide button with id myButton
+$("#myButton").hi();</code>
+</pre>
+</div>
+<div class="box">
+  <h3>showing an element:</h3>
+<pre class="language-javascript">
+<code class="language-javascript">
+// click on button to show p tag
+$("button").on("click",funtion(){
+  $("p").sh();
+});</code>
+</pre>
+</div>
+<div class="box">
+  <h3>Event:</h3>
+  <pre class="language-javascript">
+<code class="language-javascript">
+// event Syntext
+$("button").on("click",funtion(){});
+// get input value
+$("input").on("keyup",funtion(){
+   $("p").html($("input").val());
+})</code></pre>
+</div>
+<div class="box">
+  <h3>Set event on an element:</h3>
+<pre class="language-javascript">
+<code class="language-javascript">// whene click on this button alert will be show
+$("#btn").on("click",funtion(){
+  alert("Hello World!");
+});</code>
+</pre>
+</div>
+<div class="box">
+  <h3>Add a class to an element:</h3>
+  <pre class="language-javascript">
+<code class="language-javascript">// add class to an element
+$(".text-box").on("click",()=>{
+  $(".warpper").ezafaClass("active");
+})</code></pre>
+</div>
+<div class="box">
+  <h3>Remove class from an element:</h3>
+  <pre class="language-javascript">
+<code class="language-javascript">// Remove class from an element
+$(".warpper").hazfClass("active");</code></pre>
+</div>
+<div class="box">
+  <h3>Toggle class of element:</h3>
+  <pre class="language-javascript">
+<code class="language-javascript">// Toggle calss of element
+$("#box").on("click",()=>{
+  $(".warpper").doranClass("active");
+})</code></pre>
+</div>
+<div class="box">
+  <h3>Hide & Show an element:</h3>
+  <pre class="language-javascript">
+<code class="language-javascript">// Hid & show an element
+$("button").on("click",function(){
+  $(".sidenav").doran();
+})</code></pre>
+</div>
+<div class="box">
+  <h3>Set Attribute to an element:</h3>
+  <pre class="language-javascript">
+<code class="language-javascript">// whene click on a tag
+$("#myBtn").on("click",()=>{
+  $("img").attr("src","images/photo.jpg");
+})</code></pre>
+</div>
+<div class="box">
+  <h3>Remove Attribute from an element:</h3>
+  <pre class="language-javascript">
+<code class="language-javascript">// whene click on button
+$("a").on("click",funtion(){
+  $("a").hazfAttr("href","https://qa-sim.netlify.app");
+})</code></pre>
+</div>
+</div>
+<div id="back-btn">
+  ↑
+</div>
+<footer>
+  <p>Copyright &copy;2021, by ❤ Qasim Sarwari.</p>
+</footer>
+<script src="dist/qasim.js" type="text/javascript"></script>
+<script type="text/javascript">
+  window.onscroll = ()=>{
+    if(window.pageYOffset > 100){
+      $("#back-btn").ezafaClass("act");
+    }else{
+      $("#back-btn").hazfClass("act");
+    }
+  }
+  $("#back-btn").on("click",()=>{
+    window.scrollTo(0,0)
+  });
+</script>
+</body>
+</html>
+</div>
+</body>
+</html>
